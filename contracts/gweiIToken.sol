@@ -18,7 +18,7 @@ contract GweiIToken is StandardToken {
         return this.balance;
     }
     
-    function setConverstion(uint256 exchangeRate) public {
+    function setConversion(uint256 exchangeRate) public {
         require(msg.sender == _owner);
         _weiToGweiI = exchangeRate;
     }
