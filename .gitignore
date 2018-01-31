@@ -9,6 +9,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+bin/
+include/
 build/
 develop-eggs/
 dist/
@@ -23,6 +25,7 @@ var/
 wheels/
 *.egg-info/
 .installed.cfg
+pip-selfcheck.json
 *.egg
 
 # PyInstaller
@@ -99,3 +102,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.DS_Store
